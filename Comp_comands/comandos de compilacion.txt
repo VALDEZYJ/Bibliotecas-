@@ -1,0 +1,54 @@
+BIBLIOTECA DINAMICA
+
+Compilacion de objetos
+
+g++ -c .\prelib\cmmm.cc -o .\bibo\cmmm.o -I .\cabeceras
+g++ -c .\prelib\decamet.cc -o .\bibo\decamet.o -I .\cabeceras
+g++ -c .\prelib\hectomet.cc -o .\bibo\hectomet.o -I .\cabeceras
+g++ -c .\prelib\kmcm.cc -o .\bibo\kmcm.o -I .\cabeceras
+g++ -c .\prelib\mcm.cc -o .\bibo\mcm.o -I .\cabeceras
+g++ -c .\prelib\metdeca.cc -o .\bibo\metdeca.o -I .\cabeceras
+g++ -c .\prelib\methecto.cc -o .\bibo\methecto.o -I .\cabeceras
+g++ -c .\prelib\metmic.cc -o .\bibo\metmic.o -I .\cabeceras
+g++ -c .\prelib\micmet.cc -o .\bibo\micmet.o -I .\cabeceras
+g++ -c .\prelib\mmcm.cc -o .\bibo\mmcm.o -I .\cabeceras
+
+compilacion de libreria 
+ar crs .\lib\estatica\conver.lib .\bibo\*.o
+
+crear ejecutable
+g++ conversiones.cc -o conversiones -I .\lib\cabeceras -L .\lib\estatica -lconver
+
+compilar ejecutable
+.\conversiones.exe
+
+
+BIBLIOTECA DINAMICA
+
+compilacion de los .cc a .o con fPIC
+
+g++ -c .\prelib\cmkm.cc -o .\bibodin\cmkm.o -I .\cabeceras -fPIC 
+g++ -c .\prelib\cmm.cc -o .\bibodin\cmm.o -I .\cabeceras -fPIC  
+g++ -c .\prelib\cmmm.cc -o .\bibodin\cmmm.o -I .\cabeceras -fPIC
+g++ -c .\prelib\decamet.cc -o .\bibodin\decamet.o -I .\cabeceras -fPIC
+g++ -c .\prelib\hectomet.cc -o .\bibodin\hectomet.o -I .\cabeceras -fPIC
+g++ -c .\prelib\kmcm.cc -o .\bibodin\kmcm.o -I .\cabeceras -fPIC
+g++ -c .\prelib\mcm.cc -o .\bibodin\mcm.o -I .\cabeceras -fPIC 
+g++ -c .\prelib\metdeca.cc -o .\bibodin\metdeca.o -I .\cabeceras -fPIC
+g++ -c .\prelib\methecto.cc -o .\bibodin\methecto.o -I .\cabeceras -fPIC
+g++ -c .\prelib\metmic.cc -o .\bibodin\metmic.o -I .\cabeceras -fPIC
+g++ -c .\prelib\mmcm.cc -o .\bibodin\mmcm.o -I .\cabeceras -fPIC
+g++ -c .\prelib\micmet.cc -o .\bibodin\mmicmet.o -I .\cabeceras -fPIC
+
+
+Generar el DLL
+gcc -shared .\comp_o\bibodin\*.o -o conver.dll 
+
+compilar estatica en .cc
+g++ -o conversionesdin.exe conversionesdin.cc -L./lib/dinamica -lconver 
+
+crear .exe de dinamica 
+g++ conversionesdin.cc .\lib\dinamica\conver.dll -o conversionesdin
+
+Compilar ejecutable
+.\conversionesdin.exe

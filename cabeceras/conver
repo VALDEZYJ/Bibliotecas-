@@ -1,0 +1,20 @@
+#if !defined(CONVER)
+#define CONVER
+
+float cmAkm(const float& x);
+float kmAcm(const float& x);
+float cmAmm(const float& x);
+float mmAcm(const float& x);
+float cmAm(const float& x);
+float mAcm(const float& x);
+
+float decamet(const float& x);
+float metdeca(const float& x);
+float methecto(const float& x);
+float hectomet(const float& x);
+float micmet(const float& x);
+float metmic(const float& x);
+
+
+
+#endif
