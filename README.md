@@ -23,7 +23,7 @@ A continuación, viene la carpeta prelib donde se almacenaron todos los archivos
 Se dejo un archivo donde contiene los comandos que se ocupan para ejecutar la biblioteca.
 Por último, está el compilador y el ejecutador de la biblioteca.
 
-Paso1.- En el archivo que es conversiones.cc darle compilar este es el comando para compilar el ejecutable (.\conversiones.exe) y en seguida ejecutar ctrl + j, se ejecutara el programa y dentro de ahí vienen las instrucciones de que valor quieres convertir.
+Paso1.- En el archivo que es conversiones.cc seleccionar en seguida ejecutar ctrl + j darle compilar este es el comando para compilar el ejecutable (.\conversiones.exe) y , se ejecutara el programa y dentro de ahí vienen las instrucciones de que valor quieres convertir.
 
 
 AUTORES  :Eduardo Gonzalez gonzalez  2213064505
