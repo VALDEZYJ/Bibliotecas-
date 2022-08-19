@@ -26,22 +26,6 @@ Por último, está el compilador y el ejecutador de la biblioteca.
 Paso1.- En el archivo que es conversiones.cc seleccionar en seguida ejecutar ctrl + j darle compilar este es el comando para compilar el ejecutable (.\conversiones.exe) y , se ejecutara el programa y dentro de ahí vienen las instrucciones de que valor quieres convertir.
 
 
-AUTORES  :Eduardo Gonzalez gonzalez  2213064505
-         Alvaro Arturo Ramirez Areiaga 2013026149  
-         Yoshua Jareth Valdez Hernadez 2213064309  
 
-Evaluación
-
-EL compañero Eduardo Gonzalez Gonzalez en todo momento tuvo disponibilidad para realizar
-el trabajo dentro y fuera de la unidad. Aporto ideas y soluciones al trabajo realizado.
-también estuvo realizando sus pruebas y errores y lo comentaba cuando nos reuníamos hubo mucha comunicación de su parte y estuvo al pendiente de todo lo que se hacía.
-Calificacion:10
-
-
-
-El compañero Álvaro Arturo Ramírez Areiaga de igual manera tuvo disponibilidad para realizar 
-el trabajo solicitado estuvo presente en las reuniones de zoom, en este trabajo fue el que nos 
-estuvo asesorando en todo momento, aporto bastante conocimiento e ideas, tuvo mucha comunicación durante y después de clases vía WhatsApp y mucha creatividad para darle solución a este trabajo.
-Calificacin:10
 
 
