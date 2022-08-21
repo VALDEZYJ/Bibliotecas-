@@ -18,7 +18,7 @@ Instrucciones para compilar la biblioteca estática y dinámica:
 Clonar el repositorio :
 >https://github.com/VALDEZYJ/Bibliotecas-.git
 
-BIBLIOTECA DINAMICA
+BIBLIOTECA ESTÁTICA
 
 Compilación de librería: 
 > ar crs .\lib\estatica\conver.lib .\bibo\*.o
