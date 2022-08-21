@@ -1,0 +1,113 @@
+#if !defined(CONVER)
+#define CONVER
+/**
+ * @brief Convertir de cm-km
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x/100000
+ * @author 2213064505
+ */
+float cmAkm(const float& x);
+/**
+ * @brief Convertir de km-cm
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x * 100000
+ * @author 2213064505
+ */
+float kmAcm(const float& x);
+
+/**
+ * @brief Convertir de cm-mm
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x * 10
+ * @author 2213064505
+ */
+float cmAmm(const float& x);
+
+/**
+ * @brief Convertir de mm-cm
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x / 10
+ * @author 2213064505
+ */
+float mmAcm(const float& x);
+
+/**
+ * @brief Convertir de cm-m
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x/100
+ * @author 2213064309
+ */
+float cmAm(const float& x);
+
+/**
+ * @brief  Convertir de m-cm
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x*100
+ * @author 2213064309
+ */
+float mAcm(const float& x);
+
+/**
+ * @brief Convertir de dam-m
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x * 10
+ * @author 2213064309
+ */
+float decamet(const float& x);
+
+/**
+ * @brief Convertir de m-dam
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x / 10
+ * @author 2213064309
+ */
+float metdeca(const float& x);
+
+/**
+ * @brief Convertir de m-hm
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x / 100
+ * @author 2213026149
+ */
+float methecto(const float& x);
+
+/**
+ * @brief Convertir de hm-m
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x * 100
+ * @author 2213026149
+ */
+float hectomet(const float& x);
+
+/**
+ * @brief Convertir de um-m
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x * 1000000
+ * @author 2213026149
+ */
+float micmet(const float& x);
+
+/**
+ * @brief Convertir de m-um
+ * 
+ * @param x Ingresar valor positivo real
+ * @return x * 1000000
+ * @author 2213026149
+ */
+float metmic(const float& x);
+
+
+
+
+#endif
