@@ -45,4 +45,8 @@ Crear .exe de dinámica:
 Compilar ejecutable:
 >.\conversionesdin.exe
 
+colaboradores:
+2213064309
+2213026149
+2213064505
 
