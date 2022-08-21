@@ -15,6 +15,7 @@ En este espacio de github se encuentran alojadas las bibliotecas estatica y dina
 13. metros a micrómetros.
 
 Instrucciones para compilar las biblioteca estatica y dinamica:
+
 Generar el DLL
 gcc -shared .\comp_o\bibodin\*.o -o conver.dll 
 compilar estatica en .cc
