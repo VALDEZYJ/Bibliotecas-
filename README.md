@@ -43,3 +43,4 @@ g++ conversionesdin.cc .\lib\dinamica\conver.dll -o conversionesdin
 Compilar ejecutable:
 
 .\conversionesdin.exe
+
