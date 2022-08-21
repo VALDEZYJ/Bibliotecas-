@@ -25,7 +25,7 @@ Compilar ejecutable
 .\conversionesdin.exe
 
 
-
+p
 
 
 
