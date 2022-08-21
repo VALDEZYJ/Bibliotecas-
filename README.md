@@ -36,7 +36,7 @@ BIBLIOTECA DINAMICA
 Generar el DLL:
 >gcc -shared .\comp_o\bibodin\*.o -o conver.dll 
 
-Compilar estática en .cc:
+Compilar dinámica en  .cc:
 >g++ -o conversionesdin.exe conversionesdin.cc -L./lib/dinámica -lconver 
 
 Crear .exe de dinámica:
