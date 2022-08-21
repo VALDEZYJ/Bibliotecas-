@@ -14,7 +14,8 @@ En este espacio de github se encuentran alojadas las bibliotecaS estáticay din�
 12.	metros a micrómetros.
 
 Instrucciones para compilar la biblioteca estática y dinámica:
-Clonar el repositorio :https://github.com/VALDEZYJ/Bibliotecas-.git
+Clonar el repositorio :
+>https://github.com/VALDEZYJ/Bibliotecas-.git
 
 BIBLIOTECA DINAMICA
 
@@ -35,4 +36,3 @@ Crear .exe de dinámica:
 >g++ conversionesdin.cc .\lib\dinamica\conver.dll -o conversionesdin
 Compilar ejecutable:
 >.\conversionesdin.exe
-
