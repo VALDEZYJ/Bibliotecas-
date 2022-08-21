@@ -14,6 +14,7 @@ En este espacio de github se encuentran alojadas las bibliotecaS estáticay din�
 12.	metros a micrómetros.
 
 Instrucciones para compilar la biblioteca estática y dinámica:
+
 Clonar el repositorio :
 >https://github.com/VALDEZYJ/Bibliotecas-.git
 
