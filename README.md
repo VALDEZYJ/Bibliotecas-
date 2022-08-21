@@ -12,10 +12,14 @@ En este espacio de github se encuentran alojadas las bibliotecas estática y din
 11.	micrómetro a metro.
 12.	metros a micrómetros.
 Instrucciones para compilar la biblioteca estática y dinámica:
+
 BIBLIOTECA DINAMICA
 Compilación de librería: 
+
 ar crs .\lib\estatica\conver.lib .\bibo\*.o
+
 Crear ejecutable:
+
 g++ conversiones.cc -o conversiones -I .\lib\cabeceras -L .\lib\estatica -lconver
 compilar ejecutable
 .\conversiones.exe
