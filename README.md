@@ -12,30 +12,19 @@ En este espacio de github se encuentran alojadas las bibliotecas estática y din
 11.	micrómetro a metro.
 12.	metros a micrómetros.
 Instrucciones para compilar la biblioteca estática y dinámica:
-
-BIBLIOTECA DINAMICA 
-
-Compilación de librería:
-
+BIBLIOTECA DINAMICA
+Compilación de librería: 
 ar crs .\lib\estatica\conver.lib .\bibo\*.o
-
 Crear ejecutable:
-
 g++ conversiones.cc -o conversiones -I .\lib\cabeceras -L .\lib\estatica -lconver
-compilar ejecutable
+Compilar ejecutable:
 .\conversiones.exe
 BIBLIOTECA DINAMICA
-Generar el DLL
+Generar el DLL:
 gcc -shared .\comp_o\bibodin\*.o -o conver.dll 
-
-compilar estática en .cc
+Compilar estática en .cc:
 g++ -o conversionesdin.exe conversionesdin.cc -L./lib/dinámica -lconver 
 Crear .exe de dinámica:
 g++ conversionesdin.cc .\lib\dinamica\conver.dll -o conversionesdin
 Compilar ejecutable:
 .\conversionesdin.exe
-
-
-
-
-
