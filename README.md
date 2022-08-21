@@ -13,8 +13,9 @@ En este espacio de github se encuentran alojadas las bibliotecas estática y din
 12.	metros a micrómetros.
 Instrucciones para compilar la biblioteca estática y dinámica:
 
-BIBLIOTECA DINAMICA
-Compilación de librería: 
+BIBLIOTECA DINAMICA 
+
+Compilación de librería:
 
 ar crs .\lib\estatica\conver.lib .\bibo\*.o
 
