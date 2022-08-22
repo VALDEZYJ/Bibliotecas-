@@ -15,6 +15,8 @@ En este espacio de github se encuentran alojadas las bibliotecaS estáticay din�
 
 ># incluir  " cabecera\conver "
 
+ "LAS FUNCIONES DECLARADAS TRABAJA CON REALES POSITIVOS"
+
 if (op == 1) 
 
 res=cmAkm(r);
@@ -112,6 +114,7 @@ if (op == 12)
 res=metmic(r);
 
 {
+
 devulve micrómetros;
 
 }
