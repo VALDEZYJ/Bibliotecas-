@@ -18,7 +18,7 @@ Instrucciones para compilar la biblioteca estática y dinámica:
 Clonar el repositorio :
 >https://github.com/VALDEZYJ/Bibliotecas-.git
 
->#include caecera\conver
+>#include  abecezera\coner
 
 BIBLIOTECA ESTÁTICA
 
