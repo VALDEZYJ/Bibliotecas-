@@ -13,13 +13,77 @@ En este espacio de github se encuentran alojadas las bibliotecaS estáticay din�
 11.	micrómetro a metro.
 12.	metros a micrómetros.
 
-Instrucciones para compilar la biblioteca estática y dinámica:
+># incluir  " cabecera\conver "
+if (op == 1) 
+res=cmAkm(r);
+{
+devuelve kilómetros;
+{
 
+if (op == 2)
+res=kmAcm(r);
+{
+devuelve centímetros;
+}
+if (op == 3)
+res=cmAmm(r);
+{
+Devuelve milímetros; 
+}
+if (op == 4)
+res=mmAcm(r);
+{
+devulve centímetros;
+}
+if (op == 5)
+res=mAcm(r);
+{
+Devulve centímetros;
+}
+if (op == 6)
+res=cmAm(r);
+{
+devulve metros;
+}
+if (op == 7)
+ res=decamet(r);
+{
+devulve metros;
+}
+if (op == 8)
+res=metdeca(r);
+{
+devuelve decámetros; 
+}
+if (op == 9)
+res=methecto(r);
+{
+devulve hectómetros; 
+}
+
+if (op == 10)
+ res=hectomet(r);
+{
+devuelve metros;
+}
+if (op == 11)
+ res=micmet(r);
+{
+devulve metros;
+}
+if (op == 12)
+res=metmic(r);
+{
+devulve micrómetros;
+}
+
+Instrucciones para compilar la biblioteca estática y dinámica:
 Clonar el repositorio :
 >https://github.com/VALDEZYJ/Bibliotecas-.git
 
+"#include cabecera\conver fesdfdsfsesf" RUTA RELATIVA DE LA CABECERA
 
-BIBLIOTECA ESTÁTICA
+BIBLIOTECA DINAMICA
 
 Compilación de librería: 
 > ar crs .\lib\estatica\conver.lib .\bibo\*.o
@@ -37,7 +101,7 @@ BIBLIOTECA DINAMICA
 Generar el DLL:
 >gcc -shared .\comp_o\bibodin\*.o -o conver.dll 
 
-Compilar dinámica en  .cc:
+Compilar estática en .cc:
 >g++ -o conversionesdin.exe conversionesdin.cc -L./lib/dinámica -lconver 
 
 Crear .exe de dinámica:
@@ -45,9 +109,4 @@ Crear .exe de dinámica:
 
 Compilar ejecutable:
 >.\conversionesdin.exe
-
-colaboradores:
-2213064309
-2213026149
-2213064505
 
