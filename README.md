@@ -32,6 +32,7 @@ if (op == 2)
 res=kmAcm(r);
 
 {
+
 devuelve centímetros;
 
 }
@@ -41,6 +42,7 @@ if (op == 3)
 res=cmAmm(r);
 
 {
+
 Devuelve milímetros; 
 
 }
@@ -49,6 +51,7 @@ if (op == 4)
 res=mmAcm(r);
 
 {
+
 devulve centímetros;
 
 }
@@ -64,6 +67,7 @@ if (op == 6)
 res=cmAm(r);
 
 {
+
 devulve metros;
 
 }
@@ -72,6 +76,7 @@ if (op == 7)
  res=decamet(r);
  
 {
+
 devulve metros;
 
 }
@@ -80,6 +85,7 @@ if (op == 8)
 res=metdeca(r);
 
 {
+
 devuelve decámetros; 
 
 }
@@ -88,6 +94,7 @@ if (op == 9)
 res=methecto(r);
 
 {
+
 devulve hectómetros; 
 
 }
@@ -96,8 +103,8 @@ if (op == 10)
 
  res=hectomet(r);
  
- 
 {
+
 devuelve metros;
 
 }
@@ -106,6 +113,7 @@ if (op == 11)
  res=micmet(r);
  
 {
+
 devulve metros;
 
 }
